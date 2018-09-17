@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<HorizontalStretch>false</HorizontalStretch>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="36"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="37"/>
+		</InputField>
+		<InputField name="НаименованиеПолное" id="25">
+			<DataPath>Объект.НаименованиеПолное</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеПолноеКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="НаименованиеПолноеРасширеннаяПодсказка" id="38"/>
+		</InputField>
+		<InputField name="ВидПродукции" id="32">
+			<DataPath>Объект.ВидПродукции</DataPath>
+			<ContextMenu name="ВидПродукцииКонтекстноеМеню" id="33"/>
+			<ExtendedTooltip name="ВидПродукцииРасширеннаяПодсказка" id="39"/>
+		</InputField>
+		<InputField name="ТипПродукции" id="34">
+			<DataPath>Объект.ТипПродукции</DataPath>
+			<ContextMenu name="ТипПродукцииКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="ТипПродукцииРасширеннаяПодсказка" id="40"/>
+		</InputField>
+		<UsualGroup name="Группа1" id="28">
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="41"/>
+			<ChildItems>
+				<InputField name="Объем" id="7">
+					<DataPath>Объект.Объем</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ОбъемКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="ОбъемРасширеннаяПодсказка" id="42"/>
+				</InputField>
+				<InputField name="Крепость" id="10">
+					<DataPath>Объект.Крепость</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КрепостьКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="КрепостьРасширеннаяПодсказка" id="43"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа2" id="30">
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="44"/>
+			<ChildItems>
+				<InputField name="Производитель" id="19">
+					<DataPath>Объект.Производитель</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПроизводительКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="ПроизводительРасширеннаяПодсказка" id="45"/>
+				</InputField>
+				<InputField name="Импортер" id="22">
+					<DataPath>Объект.Импортер</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ИмпортерКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="ИмпортерРасширеннаяПодсказка" id="46"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.КлассификаторАлкогольнойПродукцииЕГАИС</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

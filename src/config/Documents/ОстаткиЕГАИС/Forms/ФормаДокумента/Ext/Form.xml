@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаЗакрыть" id="94">
+				<Type>CommandBarButton</Type>
+				<Representation>PictureAndText</Representation>
+				<CommandName>Form.StandardCommand.Close</CommandName>
+				<ExtendedTooltip name="ФормаЗакрытьРасширеннаяПодсказка" id="97"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаДатаНомер" id="41">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа дата номер</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа дата номер</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаДатаНомерРасширеннаяПодсказка" id="98"/>
+			<ChildItems>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="99"/>
+				</InputField>
+				<InputField name="Дата" id="4">
+					<DataPath>Объект.Date</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>от</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="100"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаОрганизацияЕГАИССтатус" id="92">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа организация ЕГАИССтатус</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа организация ЕГАИССтатус</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОрганизацияЕГАИССтатусРасширеннаяПодсказка" id="101"/>
+			<ChildItems>
+				<InputField name="ОрганизацияЕГАИС" id="7">
+					<DataPath>Объект.ОрганизацияЕГАИС</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ОрганизацияЕГАИСКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="ОрганизацияЕГАИСРасширеннаяПодсказка" id="102"/>
+					<Events>
+						<Event name="OnChange">ОрганизацияЕГАИСПриИзменении</Event>
+					</Events>
+				</InputField>
+				<LabelField name="СтатусОбработки" id="49">
+					<DataPath>Объект.СтатусОбработки</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<ContextMenu name="СтатусОбработкиКонтекстноеМеню" id="50"/>
+					<ExtendedTooltip name="СтатусОбработкиРасширеннаяПодсказка" id="103"/>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="ВидДокумента" id="95">
+			<DataPath>Объект.ВидДокумента</DataPath>
+			<ListChoiceMode>true</ListChoiceMode>
+			<ChoiceList>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation/>
+						<Value xsi:type="xr:DesignTimeRef">Enum.ВидыДокументовЕГАИС.EnumValue.ЗапросОстатков</Value>
+					</xr:Value>
+				</xr:Item>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation/>
+						<Value xsi:type="xr:DesignTimeRef">Enum.ВидыДокументовЕГАИС.EnumValue.ЗапросОстатковВТорговомЗале</Value>
+					</xr:Value>
+				</xr:Item>
+			</ChoiceList>
+			<ContextMenu name="ВидДокументаКонтекстноеМеню" id="96"/>
+			<ExtendedTooltip name="ВидДокументаРасширеннаяПодсказка" id="104"/>
+			<Events>
+				<Event name="OnChange">ВидДокументаПриИзменении</Event>
+			</Events>
+		</InputField>
+		<Pages name="Страницы" id="43">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="105"/>
+			<ChildItems>
+				<Page name="СтраницаИнформацияОбОшибке" id="52">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Информация об ошибке</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница информация об ошибке</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Picture>
+						<xr:Ref>CommonPicture.ЕГАИС_Отказ</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ExtendedTooltip name="СтраницаИнформацияОбОшибкеРасширеннаяПодсказка" id="106"/>
+					<ChildItems>
+						<InputField name="ИнформацияОбОшибке" id="54">
+							<DataPath>ИнформацияОбОшибке</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<MultiLine>true</MultiLine>
+							<ContextMenu name="ИнформацияОбОшибкеКонтекстноеМеню" id="55"/>
+							<ExtendedTooltip name="ИнформацияОбОшибкеРасширеннаяПодсказка" id="107"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаОстаткиПоДаннымЕГАИС" id="45">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Остатки по данным ЕГАИС</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница остатки по данным ЕГАИС</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаОстаткиПоДаннымЕГАИСРасширеннаяПодсказка" id="108"/>
+					<ChildItems>
+						<Table name="ОстаткиПоДаннымЕГАИС" id="16">
+							<Representation>List</Representation>
+							<ReadOnly>true</ReadOnly>
+							<ChangeRowSet>false</ChangeRowSet>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ОстаткиПоДаннымЕГАИС</DataPath>
+							<CommandSet>
+								<ExcludedCommand>Add</ExcludedCommand>
+								<ExcludedCommand>Change</ExcludedCommand>
+								<ExcludedCommand>Copy</ExcludedCommand>
+								<ExcludedCommand>Delete</ExcludedCommand>
+							</CommandSet>
+							<SearchStringLocation>None</SearchStringLocation>
+							<ViewStatusLocation>None</ViewStatusLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ОстаткиПоДаннымЕГАИСКонтекстноеМеню" id="17"/>
+							<AutoCommandBar name="ОстаткиПоДаннымЕГАИСКоманднаяПанель" id="18">
+								<ChildItems>
+									<Button name="ФормаВыгрузитьВЕГАИС" id="57">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ВыгрузитьВЕГАИС</CommandName>
+										<ExtendedTooltip name="ФормаВыгрузитьВЕГАИСРасширеннаяПодсказка" id="109"/>
+									</Button>
+									<Button name="ОстаткиПоДаннымЕГАИСНайти" id="88">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Item.ОстаткиПоДаннымЕГАИС.StandardCommand.Find</CommandName>
+										<ExtendedTooltip name="ОстаткиПоДаннымЕГАИСНайтиРасширеннаяПодсказка" id="110"/>
+									</Button>
+									<Button name="ОстаткиПоДаннымЕГАИСОтменитьПоиск" id="90">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Item.ОстаткиПоДаннымЕГАИС.StandardCommand.CancelSearch</CommandName>
+										<ExtendedTooltip name="ОстаткиПоДаннымЕГАИСОтменитьПоискРасширеннаяПодсказка" id="111"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ОстаткиПоДаннымЕГАИСРасширеннаяПодсказка" id="112"/>
+							<SearchStringAddition name="ОстаткиПоДаннымЕГАИССтрокаПоиска" id="113">
+								<AdditionSource>
+									<Item>ОстаткиПоДаннымЕГАИС</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ОстаткиПоДаннымЕГАИССтрокаПоискаКонтекстноеМеню" id="114"/>
+								<ExtendedTooltip name="ОстаткиПоДаннымЕГАИССтрокаПоискаРасширеннаяПодсказка" id="115"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ОстаткиПоДаннымЕГАИССостояниеПросмотра" id="116">
+								<AdditionSource>
+									<Item>ОстаткиПоДаннымЕГАИС</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ОстаткиПоДаннымЕГАИССостояниеПросмотраКонтекстноеМеню" id="117"/>
+								<ExtendedTooltip name="ОстаткиПоДаннымЕГАИССостояниеПросмотраРасширеннаяПодсказка" id="118"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ОстаткиПоДаннымЕГАИСУправлениеПоиском" id="119">
+								<AdditionSource>
+									<Item>ОстаткиПоДаннымЕГАИС</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ОстаткиПоДаннымЕГАИСУправлениеПоискомКонтекстноеМеню" id="120"/>
+								<ExtendedTooltip name="ОстаткиПоДаннымЕГАИСУправлениеПоискомРасширеннаяПодсказка" id="121"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ОстаткиПоДаннымЕГАИСНомерСтроки" id="29">
+									<DataPath>Объект.ОстаткиПоДаннымЕГАИС.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ОстаткиПоДаннымЕГАИСНомерСтрокиКонтекстноеМеню" id="30"/>
+									<ExtendedTooltip name="ОстаткиПоДаннымЕГАИСНомерСтрокиРасширеннаяПодсказка" id="122"/>
+								</LabelField>
+								<InputField name="ОстаткиПоДаннымЕГАИСАлкогольнаяПродукция" id="32">
+									<DataPath>Объект.ОстаткиПоДаннымЕГАИС.АлкогольнаяПродукция</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ОстаткиПоДаннымЕГАИСАлкогольнаяПродукцияКонтекстноеМеню" id="33"/>
+									<ExtendedTooltip name="ОстаткиПоДаннымЕГАИСАлкогольнаяПродукцияРасширеннаяПодсказка" id="123"/>
+								</InputField>
+								<InputField name="ОстаткиПоДаннымЕГАИСКоличество" id="35">
+									<DataPath>Объект.ОстаткиПоДаннымЕГАИС.Количество</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ОстаткиПоДаннымЕГАИСКоличествоКонтекстноеМеню" id="36"/>
+									<ExtendedTooltip name="ОстаткиПоДаннымЕГАИСКоличествоРасширеннаяПодсказка" id="124"/>
+								</InputField>
+								<InputField name="ОстаткиПоДаннымЕГАИССправкаБ" id="38">
+									<DataPath>Объект.ОстаткиПоДаннымЕГАИС.СправкаБ</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ОстаткиПоДаннымЕГАИССправкаБКонтекстноеМеню" id="39"/>
+									<ExtendedTooltip name="ОстаткиПоДаннымЕГАИССправкаБРасширеннаяПодсказка" id="125"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаКорректировкаОстатков" id="59">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Корректировка учетных остатков</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница корректировка остатков</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаКорректировкаОстатковРасширеннаяПодсказка" id="126"/>
+					<ChildItems>
+						<Table name="КорректировкаОстатков" id="61">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.КорректировкаОстатков</DataPath>
+							<SearchStringLocation>None</SearchStringLocation>
+							<ViewStatusLocation>None</ViewStatusLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="КорректировкаОстатковКонтекстноеМеню" id="62"/>
+							<AutoCommandBar name="КорректировкаОстатковКоманднаяПанель" id="63">
+								<ChildItems>
+									<Button name="КорректировкаОстатковЗаполнитьРасхождения" id="86">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ЗаполнитьПоРасхождениям</CommandName>
+										<ExtendedTooltip name="КорректировкаОстатковЗаполнитьРасхожденияРасширеннаяПодсказка" id="127"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="КорректировкаОстатковРасширеннаяПодсказка" id="128"/>
+							<SearchStringAddition name="КорректировкаОстатковСтрокаПоиска" id="129">
+								<AdditionSource>
+									<Item>КорректировкаОстатков</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КорректировкаОстатковСтрокаПоискаКонтекстноеМеню" id="130"/>
+								<ExtendedTooltip name="КорректировкаОстатковСтрокаПоискаРасширеннаяПодсказка" id="131"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="КорректировкаОстатковСостояниеПросмотра" id="132">
+								<AdditionSource>
+									<Item>КорректировкаОстатков</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КорректировкаОстатковСостояниеПросмотраКонтекстноеМеню" id="133"/>
+								<ExtendedTooltip name="КорректировкаОстатковСостояниеПросмотраРасширеннаяПодсказка" id="134"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="КорректировкаОстатковУправлениеПоиском" id="135">
+								<AdditionSource>
+									<Item>КорректировкаОстатков</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="КорректировкаОстатковУправлениеПоискомКонтекстноеМеню" id="136"/>
+								<ExtendedTooltip name="КорректировкаОстатковУправлениеПоискомРасширеннаяПодсказка" id="137"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="КорректировкаОстатковНомерСтроки" id="74">
+									<DataPath>Объект.КорректировкаОстатков.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="КорректировкаОстатковНомерСтрокиКонтекстноеМеню" id="75"/>
+									<ExtendedTooltip name="КорректировкаОстатковНомерСтрокиРасширеннаяПодсказка" id="138"/>
+								</LabelField>
+								<InputField name="КорректировкаОстатковАлкогольнаяПродукция" id="77">
+									<DataPath>Объект.КорректировкаОстатков.АлкогольнаяПродукция</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="КорректировкаОстатковАлкогольнаяПродукцияКонтекстноеМеню" id="78"/>
+									<ExtendedTooltip name="КорректировкаОстатковАлкогольнаяПродукцияРасширеннаяПодсказка" id="139"/>
+								</InputField>
+								<InputField name="КорректировкаОстатковКоличество" id="80">
+									<DataPath>Объект.КорректировкаОстатков.Количество</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Количество корректировки</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="КорректировкаОстатковКоличествоКонтекстноеМеню" id="81"/>
+									<ExtendedTooltip name="КорректировкаОстатковКоличествоРасширеннаяПодсказка" id="140"/>
+								</InputField>
+								<InputField name="КорректировкаОстатковСправкаБ" id="83">
+									<DataPath>Объект.КорректировкаОстатков.СправкаБ</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="КорректировкаОстатковСправкаБКонтекстноеМеню" id="84"/>
+									<ExtendedTooltip name="КорректировкаОстатковСправкаБРасширеннаяПодсказка" id="141"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаКомментарий" id="47">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Комментарий</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница комментарий</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаКомментарийРасширеннаяПодсказка" id="142"/>
+					<ChildItems>
+						<InputField name="Комментарий" id="13">
+							<DataPath>Объект.Комментарий</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="КомментарийКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="143"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ОстаткиЕГАИС</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+		<Attribute name="ИнформацияОбОшибке" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Информация об ошибке</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ВыгрузитьВЕГАИС" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запросить из ЕГАИС</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить ВЕГАИС</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ЕГАИС_ИсходящийЗапрос</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ВыгрузитьВЕГАИС</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ЗаполнитьПоРасхождениям" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить по расхождениям</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить по расхождениям</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьПоРасхождениям</Action>
+		</Command>
+	</Commands>
+	<CommandInterface>
+		<NavigationPanel>
+			<Item>
+				<Command>AccumulationRegister.ОстаткиАлкогольнойПродукцииЕГАИС.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+		</NavigationPanel>
+	</CommandInterface>
+</Form>
