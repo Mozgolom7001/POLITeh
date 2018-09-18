@@ -3313,8 +3313,8 @@
 		<Metadata name="CommonModule.Анкетирование.Module" id="36ecb188-bb62-4b2c-83b5-b150794afb13.0" configVersion="f672bf3a2071e448aee24d3f518f370900000000"/>
 		<Metadata name="CommonModule.БухгалтерскийУчетРасчетовСКонтрагентами" id="f29da4bc-46e0-4397-8376-0cc57ebf58bc" configVersion="2e178dc3c89c5546b7e522a962faa03e00000000"/>
 		<Metadata name="CommonModule.БухгалтерскийУчетРасчетовСКонтрагентами.Module" id="f29da4bc-46e0-4397-8376-0cc57ebf58bc.0" configVersion="4123dc0ab7390d4b9a50b1c843107f8700000000"/>
-		<Metadata name="CommonModule.ВЦ_ПодпискиНаСобытия" id="d80387d1-aa15-4c94-8ece-23da1e870c4f" configVersion="a788cce2a42b5c4c97f8620bab874ca100000000"/>
-		<Metadata name="CommonModule.ВЦ_ПодпискиНаСобытия.Module" id="d80387d1-aa15-4c94-8ece-23da1e870c4f.0" configVersion="e6ce42fa02d3a14ea1303532964f20f300000000"/>
+		<Metadata name="CommonModule.ВЦ_ПодпискиНаСобытия" id="d80387d1-aa15-4c94-8ece-23da1e870c4f" configVersion="a28a77f99cd647408185e13dff7ec3bb00000000"/>
+		<Metadata name="CommonModule.ВЦ_ПодпискиНаСобытия.Module" id="d80387d1-aa15-4c94-8ece-23da1e870c4f.0" configVersion="98b9ea8aa3d77241876c92db56fe117a00000000"/>
 		<Metadata name="CommonModule.ГлобальныйМодуль" id="91f0d6b3-c97f-464d-8f17-d77c063ad443" configVersion="31baeaba1d22c14990c57183383101dd00000000"/>
 		<Metadata name="CommonModule.ГлобальныйМодуль.Module" id="91f0d6b3-c97f-464d-8f17-d77c063ad443.0" configVersion="0813849fb4529144a15dfaae204a7b8300000000"/>
 		<Metadata name="CommonModule.ДлительныеОперации" id="f7608000-1e8a-4ca4-afb7-e04ef547b70a" configVersion="1acf6ea8b5683846968c25be6b84124b00000000"/>
