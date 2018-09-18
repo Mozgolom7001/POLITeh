@@ -13840,7 +13840,7 @@
 		<Metadata name="Document.СчетНаОплатуПоставщика.ObjectModule" id="6f7483b9-6f2e-41c2-a71e-8cc26fff5c7a.0" configVersion="8960b6c059c78946a377dc5bad187c9700000000"/>
 		<Metadata name="Document.СчетНаОплатуПоставщика.Template.СчетЗаказ" id="ac769343-8b81-4583-bcaa-480d495a243c" configVersion="f19d851b5d7fae4fa4ba659ff87f856a00000000"/>
 		<Metadata name="Document.СчетНаОплатуПоставщика.Template.СчетЗаказ.Template" id="ac769343-8b81-4583-bcaa-480d495a243c.0" configVersion="cc6b381635137f4ab124c8aa5f974c4500000000"/>
-		<Metadata name="Document.СчетФактураВыданный" id="edb966e9-53c0-445d-a912-fd374ec8f17c" configVersion="84a00e6b7e7d24428618018cae21b11500000000">
+		<Metadata name="Document.СчетФактураВыданный" id="edb966e9-53c0-445d-a912-fd374ec8f17c" configVersion="c41ad4488cd5c1468c296e109d41264500000000">
 			<Metadata name="Document.СчетФактураВыданный.Attribute.СформированПриВводеНачальныхОстатковНДС" id="078a5eb8-2e00-42f9-bdf7-247ed53312d9"/>
 			<Metadata name="Document.СчетФактураВыданный.TabularSection.ДокументыОснования.Attribute.ДатаИсправленияИсходногоДокумента" id="07954b79-4192-4b11-b62d-415988d7c633"/>
 			<Metadata name="Document.СчетФактураВыданный.Attribute.СуммаУменьшениеКомиссия" id="0ba82c6d-31cd-48ac-8d47-f63a0ce4b915"/>
@@ -13924,7 +13924,7 @@
 		<Metadata name="Document.СчетФактураВыданный.Form.ФормаСписка.Form" id="22a79181-1e58-476e-a7d7-0f14b01e3376.0" configVersion="1dd033668b36b64d9cdfd4bed49f480300000000"/>
 		<Metadata name="Document.СчетФактураВыданный.Help" id="edb966e9-53c0-445d-a912-fd374ec8f17c.1" configVersion="f7378dbbdcfe0549bea73d237fe5a47c00000000"/>
 		<Metadata name="Document.СчетФактураВыданный.ManagerModule" id="edb966e9-53c0-445d-a912-fd374ec8f17c.2" configVersion="1f79e8867e1d3c4a8cfdd03bef9fb0b800000000"/>
-		<Metadata name="Document.СчетФактураВыданный.ObjectModule" id="edb966e9-53c0-445d-a912-fd374ec8f17c.0" configVersion="2f3fc723dd23d0428c9044f8842d14a200000000"/>
+		<Metadata name="Document.СчетФактураВыданный.ObjectModule" id="edb966e9-53c0-445d-a912-fd374ec8f17c.0" configVersion="58faf887ed26c5438fd1998c62e1f0d700000000"/>
 		<Metadata name="Document.СчетФактураПолученный" id="d12a890d-fa51-4865-9b12-5ef2691fc0a4" configVersion="66d8989264949a49a39c0ff5e366a3c000000000">
 			<Metadata name="Document.СчетФактураПолученный.Attribute.Субкомиссионер" id="0149f591-0822-4047-9a8f-8b36ddca736a"/>
 			<Metadata name="Document.СчетФактураПолученный.TabularSection.СчетаФактурыВыданныеПокупателям.Attribute.СчетФактура" id="081503fe-ef50-4025-a2bb-e730fd4f6004"/>
