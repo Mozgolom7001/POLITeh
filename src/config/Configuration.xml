@@ -1081,6 +1081,7 @@
 			<CommonModule>ЭлектронныеДокументыСлужебный</CommonModule>
 			<CommonModule>ЭлектронныеДокументыСлужебныйВызовСервера</CommonModule>
 			<CommonModule>ЭлектронныеДокументыСлужебныйКлиент</CommonModule>
+			<CommonModule>ВЦ_ПодпискиНаСобытия</CommonModule>
 			<ExchangePlan>ОбменРозницаУправлениеТорговлей103</ExchangePlan>
 			<ExchangePlan>ОбменССайтомЗаказами</ExchangePlan>
 			<ExchangePlan>ОбменССайтомТоварами</ExchangePlan>
@@ -1301,6 +1302,7 @@
 			<EventSubscription>ПроверитьУстранениеПроблемыДокумента</EventSubscription>
 			<EventSubscription>ПроверитьУстранениеПроблемыОбъекта</EventSubscription>
 			<EventSubscription>СохранитьРезультатПроверкиКонтрагентаБЭД</EventSubscription>
+			<EventSubscription>НеПроводитьПоУпрУчету</EventSubscription>
 			<ScheduledJob>ВыполнениеОбмена</ScheduledJob>
 			<ScheduledJob>ЗаданиеАвтономноеРешение</ScheduledJob>
 			<ScheduledJob>ЗаданиеОбменССайтом</ScheduledJob>

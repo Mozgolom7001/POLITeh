@@ -3313,6 +3313,8 @@
 		<Metadata name="CommonModule.Анкетирование.Module" id="36ecb188-bb62-4b2c-83b5-b150794afb13.0" configVersion="f672bf3a2071e448aee24d3f518f370900000000"/>
 		<Metadata name="CommonModule.БухгалтерскийУчетРасчетовСКонтрагентами" id="f29da4bc-46e0-4397-8376-0cc57ebf58bc" configVersion="2e178dc3c89c5546b7e522a962faa03e00000000"/>
 		<Metadata name="CommonModule.БухгалтерскийУчетРасчетовСКонтрагентами.Module" id="f29da4bc-46e0-4397-8376-0cc57ebf58bc.0" configVersion="4123dc0ab7390d4b9a50b1c843107f8700000000"/>
+		<Metadata name="CommonModule.ВЦ_ПодпискиНаСобытия" id="d80387d1-aa15-4c94-8ece-23da1e870c4f" configVersion="a788cce2a42b5c4c97f8620bab874ca100000000"/>
+		<Metadata name="CommonModule.ВЦ_ПодпискиНаСобытия.Module" id="d80387d1-aa15-4c94-8ece-23da1e870c4f.0" configVersion="e6ce42fa02d3a14ea1303532964f20f300000000"/>
 		<Metadata name="CommonModule.ГлобальныйМодуль" id="91f0d6b3-c97f-464d-8f17-d77c063ad443" configVersion="31baeaba1d22c14990c57183383101dd00000000"/>
 		<Metadata name="CommonModule.ГлобальныйМодуль.Module" id="91f0d6b3-c97f-464d-8f17-d77c063ad443.0" configVersion="0813849fb4529144a15dfaae204a7b8300000000"/>
 		<Metadata name="CommonModule.ДлительныеОперации" id="f7608000-1e8a-4ca4-afb7-e04ef547b70a" configVersion="1acf6ea8b5683846968c25be6b84124b00000000"/>
@@ -4887,7 +4889,7 @@
 		<Metadata name="CommonTemplate.УниверсальныйПередаточныйДокумент981.Template" id="aa2f7661-d282-4e5e-867a-96bdba810beb.0" configVersion="ebce3b9b42ae7c46bdf2d0eec561004800000000"/>
 		<Metadata name="CommonTemplate.Этикетка" id="a60fc5e7-230a-4c3d-be5c-2544623d3a88" configVersion="8b19b1ecf7350f49b10a8a0959ae911700000000"/>
 		<Metadata name="CommonTemplate.Этикетка.Template" id="a60fc5e7-230a-4c3d-be5c-2544623d3a88.0" configVersion="38468bc16102a4448235035a09e87d9700000000"/>
-		<Metadata name="Configuration.УправлениеТорговлей" id="1e4190e9-76c2-456e-a607-4d817110ffd9" configVersion="09996776bfbfd94292845aeca1c8262600000000"/>
+		<Metadata name="Configuration.УправлениеТорговлей" id="1e4190e9-76c2-456e-a607-4d817110ffd9" configVersion="dfb45b25e391394db59f75378dd584a100000000"/>
 		<Metadata name="Configuration.УправлениеТорговлей.ExternalConnectionModule" id="6b021b70-482d-4baf-b590-b86b68d4730e.5" configVersion="781545cf6842d24982a431d97060e56900000000"/>
 		<Metadata name="Configuration.УправлениеТорговлей.Help" id="6b021b70-482d-4baf-b590-b86b68d4730e.3" configVersion="a5c09d8b392b3d41a1155f0bd56a087100000000"/>
 		<Metadata name="Configuration.УправлениеТорговлей.ManagedApplicationModule" id="6b021b70-482d-4baf-b590-b86b68d4730e.6" configVersion="dc8ee16b0c7de84f9ece74c70082a54900000000"/>
@@ -16551,6 +16553,7 @@
 		<Metadata name="EventSubscription.ЗарегистрироватьИзмененияФильтровОграниченияМиграцииДанных" id="90aa51ae-434d-48f4-bfe3-0e1dd3aeea6f" configVersion="48b6c6e516225a48942b76ead71dacae00000000"/>
 		<Metadata name="EventSubscription.ИзменитьСостояниеВерсииПередЗаписьюЭД" id="6b8688a0-848b-434f-a01d-2b0b84f989e1" configVersion="625dd4d77ba12d419b74aba668a2988900000000"/>
 		<Metadata name="EventSubscription.НазначитьНовуюВерсиюЭДПриЗаписиВладельца" id="e869face-d4f4-4fed-8f3b-165e09d0961d" configVersion="e8ffecac57d06e468353de7f1dc9bd6300000000"/>
+		<Metadata name="EventSubscription.НеПроводитьПоУпрУчету" id="8e61ed42-a662-462c-a0e8-2c92a8c9bfe4" configVersion="e544247939c12844b7029cbfd5d60eb000000000"/>
 		<Metadata name="EventSubscription.ОбменРозницаУправлениеТорговлей103ЗарегистрироватьИзменение" id="24a00575-f851-4643-9142-ced804129382" configVersion="5e08d69981a41644b753c3346640105900000000"/>
 		<Metadata name="EventSubscription.ОбменРозницаУправлениеТорговлей103ЗарегистрироватьИзменениеДокумента" id="6d2a98b2-8175-4829-a654-a2e0c8f204d1" configVersion="2a52397f3e2c734caf8dc3663e86722000000000"/>
 		<Metadata name="EventSubscription.ОбменРозницаУправлениеТорговлей103ЗарегистрироватьИзменениеНабораЗаписей" id="412caccc-22cb-4f69-b35f-0a7c761ea7ca" configVersion="60631660cd6a7349a1ca3b35b80d415200000000"/>
