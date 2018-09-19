@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
 	<ChartOfCharacteristicTypes uuid="d80908f2-1272-4b3e-81a2-5541aaf2eace">
 		<InternalInfo>
 			<xr:GeneratedType name="ChartOfCharacteristicTypesObject.ВопросыДляАнкетирования" category="Object">
@@ -106,6 +106,7 @@
 			<ListPresentation/>
 			<ExtendedListPresentation/>
 			<Explanation/>
+			<DataHistory>DontUse</DataHistory>
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="854098b9-b120-4d98-a4fc-50f7baf95d51">
@@ -150,6 +151,7 @@
 					<Indexing>DontIndex</Indexing>
 					<Use>ForItem</Use>
 					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
 			<Attribute uuid="1f4935bb-d0a0-4506-9b19-32147fc99a11">
@@ -194,6 +196,7 @@
 					<Indexing>DontIndex</Indexing>
 					<Use>ForItem</Use>
 					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
 			<Attribute uuid="0b7207cb-5b44-4dd3-9c9d-2adbceebd456">
@@ -238,6 +241,7 @@
 					<Indexing>DontIndex</Indexing>
 					<Use>ForItem</Use>
 					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
 			<Attribute uuid="83128f75-fcd6-4dc5-a649-5b5b4887e007">
@@ -277,6 +281,7 @@
 					<Indexing>DontIndex</Indexing>
 					<Use>ForItem</Use>
 					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
 			<Attribute uuid="1aed14b7-f984-4f97-bff3-9e125fc989d1">
@@ -320,6 +325,7 @@
 					<Indexing>DontIndex</Indexing>
 					<Use>ForItem</Use>
 					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
 			<Attribute uuid="6db70071-713e-48f0-849f-36c1adb4a7ce">
@@ -359,6 +365,7 @@
 					<Indexing>DontIndex</Indexing>
 					<Use>ForItem</Use>
 					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
 			<Attribute uuid="6f3db4c5-0ba8-4a47-b498-846d328c265a">
@@ -403,6 +410,7 @@
 					<Indexing>DontIndex</Indexing>
 					<Use>ForItem</Use>
 					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
 			<Attribute uuid="63bf3e79-944d-4fd4-9c04-27ebd5df4ec9">
@@ -442,6 +450,7 @@
 					<Indexing>DontIndex</Indexing>
 					<Use>ForItem</Use>
 					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
 			<Attribute uuid="f35bd29f-3d1a-49c9-afeb-198df1b9ad08">
@@ -486,6 +495,7 @@
 					<Indexing>DontIndex</Indexing>
 					<Use>ForItem</Use>
 					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
 			<Attribute uuid="5e4b54bc-21d4-47e5-97c1-b401967b3a24">
@@ -530,6 +540,7 @@
 					<Indexing>DontIndex</Indexing>
 					<Use>ForItem</Use>
 					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
 			<Attribute uuid="f4c36769-29cb-4ff2-b218-40bffbe13ec3">
@@ -569,6 +580,7 @@
 					<Indexing>DontIndex</Indexing>
 					<Use>ForItem</Use>
 					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
 			<TabularSection uuid="e4b3fef7-6120-4c0a-af1c-da7c05c6972b">

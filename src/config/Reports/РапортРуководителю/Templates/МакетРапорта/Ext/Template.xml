@@ -4002,6 +4002,15 @@
 					<d3p1:borderColor>auto</d3p1:borderColor>
 				</d3p1:titleArea>
 			</d3p1:seriesScale>
+			<d3p1:legendPlacement>UseCoordinates</d3p1:legendPlacement>
+			<d3p1:plotAreaPlacement>UseCoordinates</d3p1:plotAreaPlacement>
+			<d3p1:titleAreaPlacement>UseCoordinates</d3p1:titleAreaPlacement>
+			<d3p1:colorPaletteDescription>
+				<d3p1:colorPalette>Palette8</d3p1:colorPalette>
+			</d3p1:colorPaletteDescription>
+			<d3p1:referenceBandsColorPaletteDescription>
+				<d3p1:colorPalette>Palette32</d3p1:colorPalette>
+			</d3p1:referenceBandsColorPaletteDescription>
 		</object>
 	</drawing>
 	<drawing>
@@ -4450,6 +4459,15 @@
 					<d3p1:borderColor>auto</d3p1:borderColor>
 				</d3p1:titleArea>
 			</d3p1:seriesScale>
+			<d3p1:legendPlacement>UseCoordinates</d3p1:legendPlacement>
+			<d3p1:plotAreaPlacement>UseCoordinates</d3p1:plotAreaPlacement>
+			<d3p1:titleAreaPlacement>None</d3p1:titleAreaPlacement>
+			<d3p1:colorPaletteDescription>
+				<d3p1:colorPalette>Palette8</d3p1:colorPalette>
+			</d3p1:colorPaletteDescription>
+			<d3p1:referenceBandsColorPaletteDescription>
+				<d3p1:colorPalette>Palette32</d3p1:colorPalette>
+			</d3p1:referenceBandsColorPaletteDescription>
 		</object>
 	</drawing>
 	<drawing>
@@ -4893,6 +4911,15 @@
 					<d3p1:borderColor>auto</d3p1:borderColor>
 				</d3p1:titleArea>
 			</d3p1:seriesScale>
+			<d3p1:legendPlacement>UseCoordinates</d3p1:legendPlacement>
+			<d3p1:plotAreaPlacement>UseCoordinates</d3p1:plotAreaPlacement>
+			<d3p1:titleAreaPlacement>UseCoordinates</d3p1:titleAreaPlacement>
+			<d3p1:colorPaletteDescription>
+				<d3p1:colorPalette>Palette8</d3p1:colorPalette>
+			</d3p1:colorPaletteDescription>
+			<d3p1:referenceBandsColorPaletteDescription>
+				<d3p1:colorPalette>Palette32</d3p1:colorPalette>
+			</d3p1:referenceBandsColorPaletteDescription>
 		</object>
 	</drawing>
 	<drawing>
@@ -5336,6 +5363,15 @@
 					<d3p1:borderColor>auto</d3p1:borderColor>
 				</d3p1:titleArea>
 			</d3p1:seriesScale>
+			<d3p1:legendPlacement>UseCoordinates</d3p1:legendPlacement>
+			<d3p1:plotAreaPlacement>UseCoordinates</d3p1:plotAreaPlacement>
+			<d3p1:titleAreaPlacement>UseCoordinates</d3p1:titleAreaPlacement>
+			<d3p1:colorPaletteDescription>
+				<d3p1:colorPalette>Palette8</d3p1:colorPalette>
+			</d3p1:colorPaletteDescription>
+			<d3p1:referenceBandsColorPaletteDescription>
+				<d3p1:colorPalette>Palette32</d3p1:colorPalette>
+			</d3p1:referenceBandsColorPaletteDescription>
 		</object>
 	</drawing>
 	<drawing>
@@ -5779,6 +5815,15 @@
 					<d3p1:borderColor>auto</d3p1:borderColor>
 				</d3p1:titleArea>
 			</d3p1:seriesScale>
+			<d3p1:legendPlacement>UseCoordinates</d3p1:legendPlacement>
+			<d3p1:plotAreaPlacement>UseCoordinates</d3p1:plotAreaPlacement>
+			<d3p1:titleAreaPlacement>UseCoordinates</d3p1:titleAreaPlacement>
+			<d3p1:colorPaletteDescription>
+				<d3p1:colorPalette>Palette8</d3p1:colorPalette>
+			</d3p1:colorPaletteDescription>
+			<d3p1:referenceBandsColorPaletteDescription>
+				<d3p1:colorPalette>Palette32</d3p1:colorPalette>
+			</d3p1:referenceBandsColorPaletteDescription>
 		</object>
 	</drawing>
 	<drawing>
@@ -6222,6 +6267,15 @@
 					<d3p1:borderColor>auto</d3p1:borderColor>
 				</d3p1:titleArea>
 			</d3p1:seriesScale>
+			<d3p1:legendPlacement>UseCoordinates</d3p1:legendPlacement>
+			<d3p1:plotAreaPlacement>UseCoordinates</d3p1:plotAreaPlacement>
+			<d3p1:titleAreaPlacement>UseCoordinates</d3p1:titleAreaPlacement>
+			<d3p1:colorPaletteDescription>
+				<d3p1:colorPalette>Palette8</d3p1:colorPalette>
+			</d3p1:colorPaletteDescription>
+			<d3p1:referenceBandsColorPaletteDescription>
+				<d3p1:colorPalette>Palette32</d3p1:colorPalette>
+			</d3p1:referenceBandsColorPaletteDescription>
 		</object>
 	</drawing>
 	<templateMode>true</templateMode>

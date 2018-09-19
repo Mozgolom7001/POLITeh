@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoTitle>false</AutoTitle>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
@@ -1546,6 +1546,7 @@
 			</Picture>
 			<Action>ПерезаполнитьДокумент</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="Отклонить" id="2">
 			<Title>
@@ -1566,6 +1567,7 @@
 			</Picture>
 			<Action>Отклонить</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ВыбратьДокумент" id="3">
 			<Title>
@@ -1586,6 +1588,7 @@
 			</Picture>
 			<Action>ВыбратьДокумент</Action>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СохранитьЭДНаДиск" id="4">
 			<Title>
@@ -1606,6 +1609,7 @@
 			</Picture>
 			<Action>СохранитьЭДНаДиск</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ДоверятьЭтомуСертификату" id="5">
 			<Title>
@@ -1621,6 +1625,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ДоверятьЭтомуСертификату</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПерейтиКЖурналуCобытий" id="7">
 			<Title>
@@ -1640,6 +1645,7 @@
 				<xr:Value name="Role.ПолныеПрава">true</xr:Value>
 			</Use>
 			<Action>ПерейтиКЖурналуСобытийЭД</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОткрытьСертификат" id="8">
 			<Title>
@@ -1655,6 +1661,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОткрытьСертификат</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПроверитьПодписи" id="9">
 			<Title>
@@ -1670,6 +1677,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ПроверитьПодписи</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОтправитьПодтверждениеЭД" id="10">
 			<Title>
@@ -1690,6 +1698,7 @@
 			</Picture>
 			<Action>ОтправитьПодтверждениеЭД</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="УтвердитьЭД" id="11">
 			<Title>
@@ -1710,6 +1719,7 @@
 			</Picture>
 			<Action>УтвердитьЭД</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОтправитьЭД" id="12">
 			<Title>
@@ -1730,6 +1740,7 @@
 			</Picture>
 			<Action>ОтправитьЭД</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОтправитьПовторно" id="13">
 			<Title>
@@ -1750,6 +1761,7 @@
 			</Picture>
 			<Action>ОтправитьПовторно</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПодписатьЭД" id="14">
 			<Title>
@@ -1773,6 +1785,7 @@
 				<Item/>
 			</FunctionalOptions>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПодтвердитьПлатеж" id="15">
 			<Title>
@@ -1793,6 +1806,7 @@
 			</Picture>
 			<Action>ПодтвердитьПлатеж</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="АннулироватьЭД" id="16">
 			<Title>
@@ -1813,6 +1827,7 @@
 			</Picture>
 			<Action>АннулироватьЭД</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОтклонитьАннулирование" id="17">
 			<Title>
@@ -1833,6 +1848,7 @@
 			</Picture>
 			<Action>ОтклонитьАннулирование</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПринятьАннулирование" id="18">
 			<Title>
@@ -1853,6 +1869,7 @@
 			</Picture>
 			<Action>ПринятьАннулирование</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="Перенаправить" id="19">
 			<Title>
@@ -1874,6 +1891,7 @@
 			</Picture>
 			<Action>Перенаправить</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ДобавитьКомментарий" id="20">
 			<Title>
@@ -1889,6 +1907,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ДобавитьКомментарий</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОчиститьЗаписку" id="21">
 			<Title>
@@ -1909,6 +1928,7 @@
 			</Picture>
 			<Action>ОчиститьЗаписку</Action>
 			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОтображатьДополнительнуюИнформацию" id="6">
 			<Title>
@@ -1924,6 +1944,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОтображатьДополнительнуюИнформацию</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОтображатьОбластьКопияВерна" id="22">
 			<Title>
@@ -1939,6 +1960,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОтображатьОбластьКопияВерна</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="КомандаЗавершить" id="23">
 			<Title>
@@ -1958,6 +1980,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>КомандаЗавершить</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
 	<CommandInterface>

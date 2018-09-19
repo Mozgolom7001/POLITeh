@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -4381,6 +4381,7 @@
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Action>СформироватьПодписатьИОтправить</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СформироватьЭД" id="2">
 			<Title>
@@ -4396,6 +4397,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>СформироватьЭД</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="УтвердитьЭД" id="16">
 			<Title>
@@ -4416,6 +4418,7 @@
 			</Picture>
 			<Action>УтвердитьЭД</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="Подписать" id="17">
 			<Title>
@@ -4436,6 +4439,7 @@
 			</Picture>
 			<Action>КомандаПодписать</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="УтвердитьПодписатьИОтправить" id="18">
 			<Title>
@@ -4455,6 +4459,7 @@
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Action>УтвердитьПодписатьИОтправить</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="РаспаковатьВыделенныеПакеты" id="21">
 			<Title>
@@ -4475,6 +4480,7 @@
 			</Picture>
 			<Action>Распаковать</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="УстановитьСтатусОтмененНеотправленныеПакеты" id="4">
 			<Title>
@@ -4495,6 +4501,7 @@
 			</Picture>
 			<Action>УстановитьСтатусОтмененНеотправленныеПакеты</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОтправитьПакеты" id="5">
 			<Title>
@@ -4515,6 +4522,7 @@
 			</Picture>
 			<Action>ОтправитьПакеты</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СброситьОтбор" id="6">
 			<Title>
@@ -4534,6 +4542,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>СброситьОтбор</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="УстановитьСтатусОтмененНераспакованныеПакеты" id="7">
 			<Title>
@@ -4554,6 +4563,7 @@
 			</Picture>
 			<Action>УстановитьСтатусОтмененНераспакованныеПакеты</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="УстановитьСтатусОтмененНеизвестныеПакеты" id="8">
 			<Title>
@@ -4574,6 +4584,7 @@
 			</Picture>
 			<Action>УстановитьСтатусОтмененНеизвестныеПакеты</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ИзменитьДокумент" id="9">
 			<Title>
@@ -4594,6 +4605,7 @@
 			</Picture>
 			<Action>ИзменитьДокумент</Action>
 			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ЗакрытьПринудительно" id="13">
 			<Title>
@@ -4614,6 +4626,7 @@
 			</Picture>
 			<Action>ЗакрытьПринудительно</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОтправитьИПолучитьЭД" id="14">
 			<Title>
@@ -4634,6 +4647,7 @@
 			</Picture>
 			<Action>ОтправитьИПолучитьЭД</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="Перенаправить" id="15">
 			<Title>
@@ -4655,6 +4669,7 @@
 			</Picture>
 			<Action>Перенаправить</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="Обновить" id="20">
 			<Title>
@@ -4675,6 +4690,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>Обновить</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОтправитьПриглашения" id="22">
 			<Title>
@@ -4694,6 +4710,7 @@
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Action>ОтправитьПриглашения</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПринятьПриглашения" id="23">
 			<Title>
@@ -4713,6 +4730,7 @@
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Action>ПринятьПриглашения</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОтклонитьПриглашения" id="24">
 			<Title>
@@ -4732,6 +4750,7 @@
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Action>ОтклонитьПриглашения</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОткрытьНастройкиЭДО" id="25">
 			<Title>
@@ -4747,6 +4766,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОткрытьНастройкиЭДО</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОткрытьАрхивЭДО" id="26">
 			<Title>
@@ -4762,6 +4782,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОткрытьАрхивЭДО</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="Аннулировать" id="3">
 			<Title>
@@ -4781,6 +4802,7 @@
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Action>Аннулировать</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОтклонитьАннулирование" id="10">
 			<Title>
@@ -4801,6 +4823,7 @@
 			</Picture>
 			<Action>ОтклонитьАннулирование</Action>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОткрытьСсылкуНаСтатьюПо1СБухфон" id="11">
 			<Title>
@@ -4816,6 +4839,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОткрытьСсылкуНаСтатьюПо1СБухфон</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
 	<CommandInterface>
