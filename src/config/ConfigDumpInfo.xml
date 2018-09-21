@@ -4889,12 +4889,12 @@
 		<Metadata name="CommonTemplate.УниверсальныйПередаточныйДокумент981.Template" id="aa2f7661-d282-4e5e-867a-96bdba810beb.0" configVersion="ebce3b9b42ae7c46bdf2d0eec561004800000000"/>
 		<Metadata name="CommonTemplate.Этикетка" id="a60fc5e7-230a-4c3d-be5c-2544623d3a88" configVersion="8b19b1ecf7350f49b10a8a0959ae911700000000"/>
 		<Metadata name="CommonTemplate.Этикетка.Template" id="a60fc5e7-230a-4c3d-be5c-2544623d3a88.0" configVersion="38468bc16102a4448235035a09e87d9700000000"/>
-		<Metadata name="Configuration.УправлениеТорговлей" id="1e4190e9-76c2-456e-a607-4d817110ffd9" configVersion="89317244b2ea964ca1d9ad525a3e6acc00000000"/>
+		<Metadata name="Configuration.УправлениеТорговлей" id="1e4190e9-76c2-456e-a607-4d817110ffd9" configVersion="995ffe4379d9a94f9c99cbe69d94b0a900000000"/>
 		<Metadata name="Configuration.УправлениеТорговлей.ExternalConnectionModule" id="6b021b70-482d-4baf-b590-b86b68d4730e.5" configVersion="781545cf6842d24982a431d97060e56900000000"/>
 		<Metadata name="Configuration.УправлениеТорговлей.Help" id="6b021b70-482d-4baf-b590-b86b68d4730e.3" configVersion="a5c09d8b392b3d41a1155f0bd56a087100000000"/>
 		<Metadata name="Configuration.УправлениеТорговлей.ManagedApplicationModule" id="6b021b70-482d-4baf-b590-b86b68d4730e.6" configVersion="dc8ee16b0c7de84f9ece74c70082a54900000000"/>
 		<Metadata name="Configuration.УправлениеТорговлей.OrdinaryApplicationModule" id="6b021b70-482d-4baf-b590-b86b68d4730e.0" configVersion="3ec3f87f7d371d409a2af9ef4eacbe2a00000000"/>
-		<Metadata name="Configuration.УправлениеТорговлей.ParentConfigurations" id="6b021b70-482d-4baf-b590-b86b68d4730e.4" configVersion="7e25974db9958c4da252361d553c31c200000000"/>
+		<Metadata name="Configuration.УправлениеТорговлей.ParentConfigurations" id="6b021b70-482d-4baf-b590-b86b68d4730e.4" configVersion="ceaafcf2b810d94fa17f130b10477ba200000000"/>
 		<Metadata name="Configuration.УправлениеТорговлей.SessionModule" id="6b021b70-482d-4baf-b590-b86b68d4730e.7" configVersion="bdee1a01f5e15147aeb4b7bdd48942c300000000"/>
 		<Metadata name="Configuration.УправлениеТорговлей.Splash" id="6b021b70-482d-4baf-b590-b86b68d4730e.2" configVersion="eebd5e3a6fd07244ab3a7dacbef38a2800000000"/>
 		<Metadata name="Constant.АлгоритмПодписи" id="64f667e5-6a8f-448f-aed5-a4d461232845" configVersion="babe0b4658f9354892587c016dc7d01800000000"/>
@@ -13440,8 +13440,8 @@
 		<Metadata name="Document.РеализацияТоваровУслуг.Form.ФормаВыбора" id="dc3b6708-2ced-49fa-99bb-eaaa9496a637" configVersion="8d9abc0596aeb84785cfaa6d660736ed00000000"/>
 		<Metadata name="Document.РеализацияТоваровУслуг.Form.ФормаВыбора.Form" id="dc3b6708-2ced-49fa-99bb-eaaa9496a637.0" configVersion="9958ac485c85ca4083ab05a28014284700000000"/>
 		<Metadata name="Document.РеализацияТоваровУслуг.Form.ФормаВыбора.Help" id="dc3b6708-2ced-49fa-99bb-eaaa9496a637.1" configVersion="28effc5dd68fef4997e986e0bdb191ee00000000"/>
-		<Metadata name="Document.РеализацияТоваровУслуг.Form.ФормаДокумента" id="bf69a75a-56d8-4911-b38e-32824571f4c1" configVersion="1802043dd065f34f9237ccfef054f33700000000"/>
-		<Metadata name="Document.РеализацияТоваровУслуг.Form.ФормаДокумента.Form" id="bf69a75a-56d8-4911-b38e-32824571f4c1.0" configVersion="2d13ee91046c86469048a9e11a60730800000000"/>
+		<Metadata name="Document.РеализацияТоваровУслуг.Form.ФормаДокумента" id="bf69a75a-56d8-4911-b38e-32824571f4c1" configVersion="57b4b9f4f067b94ba811e72c6fb2a7e200000000"/>
+		<Metadata name="Document.РеализацияТоваровУслуг.Form.ФормаДокумента.Form" id="bf69a75a-56d8-4911-b38e-32824571f4c1.0" configVersion="9006492f0fefb343a42d5f70fd68712200000000"/>
 		<Metadata name="Document.РеализацияТоваровУслуг.Form.ФормаОтбораЗаказов" id="765bc010-e331-434f-b3e0-1882c39d226e" configVersion="7307eedcf879b741a8b136d84db2e7e900000000"/>
 		<Metadata name="Document.РеализацияТоваровУслуг.Form.ФормаОтбораЗаказов.Form" id="765bc010-e331-434f-b3e0-1882c39d226e.0" configVersion="aba224f6fc4d9e429d670bd8299db56800000000"/>
 		<Metadata name="Document.РеализацияТоваровУслуг.Form.ФормаСписка" id="57e72757-3960-4769-93a2-4820242369c3" configVersion="2f34fcf66e062947b08fa5fa9e08add000000000"/>
